@@ -65,7 +65,7 @@ const createtr=(obj)=>{
     <td>${obj.lname}</td>
      <td>${obj.email}</td>
     <td>${obj.contact}</td>
-    <td>${obj.id}</td>
+   
     
     <td><button class="btn btn-primary" data-id="${obj.id}" onclick="onstdedit(this)">Edit</button></td>
    <td><button class="btn btn-danger" data-id="${obj.id}" onclick="onstddelete(this)">Delete</button></td>
